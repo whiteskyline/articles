@@ -1,1 +1,3 @@
-baseurl: /articles
+safe: true
+lsi: false
+pygments: true

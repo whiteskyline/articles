@@ -1,13 +1,8 @@
 ---
-layout: default
+layout: list
 ---
-{% for post in site.posts %}
-	{% capture y %}
-		{{post.date | date:"%Y"}}
-	{% endcapture %}
-	{% if year != y %}
-		{% assign year = y %}
-		{{ y }}
-	{% endif %}
-	{{ post.date | date:"%Y-%m-%d" }}{{ post.title }}
-{% endfor %}
+
+<!-- 首页即博客列表 -->
+{% assign list = site.posts %}
+{% assign preview = true %}
+{% include list.tpl %}

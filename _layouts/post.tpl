@@ -5,7 +5,7 @@ pageClass: page-type-post
 
 ---
 
-<div class="trace">/ <a href="/articles">{{ site.name }}</a> / {{ page.title }}</div>
+<div class="trace">/ <a href="/articles/">{{ site.name }}</a> / {{ page.title }}</div>
 
 <article>
 	<h1><a href="/articles{{ page.url }}">{{ page.title }}</a></h1>

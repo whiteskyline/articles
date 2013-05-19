@@ -12,7 +12,7 @@ custom:
     category:
         default: Default Category
         another: Another Category
-        cpp: CPP Program For Linux
+        cpp: C++
     categories:
       - name:  default
         title: Default Category
@@ -21,7 +21,7 @@ custom:
         title: Another Category
 
       - name: cpp
-        title: CPP Program For Linux
+        title: C++
 
 meta:
     author:

@@ -1,0 +1,13 @@
+---
+layout: post
+title: 文章发表计划
+category: default
+---
+
+### Boost库文章阅读点
+
+* 并发编程
+* 函数与回调
+* 迭代器的外观效果
+
+{% include references.md %}
